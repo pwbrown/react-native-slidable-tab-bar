@@ -25,6 +25,12 @@
 		"name": "Philip Brown",
 		"email": "brown.philip1294@yahoo.com"
 	},
+  "contributors": [
+    {
+      "name": "Justin Pritchard",
+      "email": "justin@davidpritchard.com"
+    }
+  ],
   "licenses": [
 		{
 			"type": "MIT",
