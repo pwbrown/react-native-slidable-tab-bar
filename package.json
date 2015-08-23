@@ -35,6 +35,6 @@
     "url": "https://github.com/pwbrown/react-native-slidable-tab-bar/issues"
   },
   "dependencies": {
-    "react-native": "^0.6.0",
+    "react-native": "^0.6.0"
   }
 }
