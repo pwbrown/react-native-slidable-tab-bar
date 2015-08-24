@@ -4,6 +4,8 @@ Easily pass views into an organized view selector with a scrollable tab bar
 
 ## Demo
 
+<a href="https://raw.githubusercontent.com/pwbrown/react-native-slidable-tab-bar/master/SlidableTabBar.gif"><img src="https://raw.githubusercontent.com/pwbrown/react-native-slidable-tab-bar/master/SlidableTabBar.gif" width="350"></a>
+
 ## Add it to your project
 
 1. Run 'npm install react-native-slidable-tab-bar --save'
