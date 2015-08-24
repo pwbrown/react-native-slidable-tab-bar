@@ -52,15 +52,9 @@ var SlidableTabBar = React.createClass({
 						style={styles.tabBar}>
 						{this.props.children.map((child, i) => this.renderTabBarOption(child.props.title, child.props.color, i))}
 					</ScrollView>
-					{
-						//example: require('image!Swipe_Icon')
-						//w=19.2, h=24
-						if(this.props.tabIcon) return (
-							<View style={[styles.tabBarSwipeIcon, {opacity: .9}]}>
-								<Image style={{width: this.props.iconW, height: this.props.iconH}} source={this.props.swipeIcon}/>
-							</View>
-						);
-					}
+					<View style={[styles.tabBarSwipeIcon, {opacity: .9}]}>
+						<Image style={{width: 19.2, height: 24}} source={require('./Swipe_Icon')}/>
+					</View>
 				</View>
 
 				{/*Main Content*/}

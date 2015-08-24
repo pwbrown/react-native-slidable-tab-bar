@@ -44,22 +44,3 @@ var Main = React.createClass({
 	.
 </SlidableTabBar>
 ```
-
-## Pass Swipe Icon through for tab bar
-
-***this example uses a custom swipe_Icon. This is not built into xcode, and the height and width will not work for every use
-
-```javascript
-<SlidableTabBar swipeIcon={require('image!Swipe_Icon')} iconW=19.2 iconH=24>
-	.
-	.
-	.
-	.
-</SlidableTabBar>
-```
-
-## Props
-
-- **`swipeIcon`** _(Image Source)_
-- **`iconW`** _(Double)_
-- **`iconH`** _(Double)_
